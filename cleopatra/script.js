@@ -5,10 +5,9 @@
 /* alert("ESTE CÓDIGO NÃO SERÁ EXECUTADO! REMOVA O COMENTÁRIO!"); */
 /* console.log("BLOCO DE CÓDIGO DESATIVADO, REMOVA O COMENTÁRIO!"); */
 
-
 // ESTÁ ESTRUTURA POSSUI REDUNDÂNCIAS PROPOSITAIS.
 // BLOQUEAR INSPEÇÃO DE ELEMENTOS
-/*
+
   document.addEventListener('keydown', function(event) {
     if (event.key === 'i' && event.ctrlKey && event.shiftKey) {
       event.preventDefault();
@@ -148,7 +147,8 @@
         window.location.href = 'acesso-nao-autorizado/rastreando-localizacao/localizacao-enviada-para-o-monitoramento/index.html';
     }
 }, 1000);
-*/
+
+
 
 /*
 // TRAVA DE DOMÍNIO - SUBSTITUIR
@@ -187,7 +187,7 @@ function random(min, max) {
 if (localStorage.getItem('live-users') !== null) {
     var counts = parseInt(localStorage.getItem('live-users'));
 } else {
-    var initial = random(500, 2000);
+    var initial = random(25000, 30000);
     var counts = initial;
 }
 

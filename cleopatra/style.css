@@ -271,7 +271,7 @@ header:empty {
 /* BREAKPOINT, POSIÇÕES RELATIVAS */
 @media screen and (max-width: 1280px) {
     .headline {
-        margin: 150px 0 25px 0;
+        margin: 130px 0 25px 0;
         font-size: 31px;
     }
 
